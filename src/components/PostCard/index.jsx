@@ -1,6 +1,6 @@
-import './styles.css'
+import "./styles.css";
 
-const PostCard = ({cover, title, id, body}) =>  (
+const PostCard = ({ cover, title, id, body }) => (
   <div className="post">
     <img src={cover} alt={title} />
     <div className="post-content">
@@ -8,7 +8,6 @@ const PostCard = ({cover, title, id, body}) =>  (
       <p>{body}</p>
     </div>
   </div>
-  )
-
+);
 
 export { PostCard };
